@@ -1,4 +1,4 @@
 Hello, my name is Zhang Jiarui.
-I like drinking coffee and eating orange.
+I like drinking coffee and eating oranges.
 I am enjoying skiing. 
 I am happy that I can push my repo from Visual Studio Code to GitHub.
