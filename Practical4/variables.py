@@ -4,4 +4,5 @@ c=a+b
 d=90
 e=5
 f=d+e
-c<f
+if c<f:
+    print ("c<f")
