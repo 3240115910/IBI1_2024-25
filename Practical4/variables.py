@@ -8,5 +8,5 @@ if c<f:
     print ("c<f")
 X=True
 Y=False
-W=X+Y
+W=X and Y
 print ("W=",W)
