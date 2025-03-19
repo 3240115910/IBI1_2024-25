@@ -27,10 +27,9 @@ plt.title('Percentages of Developers Using Different Languages')
 #The range of the y axis
 plt.ylim(0,70)
 plt.show()
-#To input the language we want to seek.
-language=(input("Developers use language):"))
-#Find the percentage of the specific language and print the result.
-if language in Languages:
-    print(f"The percentage of developers who use {language} is {Languages_use[language]}%")
+# This variable can be modified as needed
+requested_language = "Python" 
+if requested_language in Languages_use:
+    print(f"The percentage of developers who use {requested_language} is {Languages_use[requested_language]}%")
 else:
-    print(f"The language {language} is not in the list.")
+    print("The requested language is not in the list.")
