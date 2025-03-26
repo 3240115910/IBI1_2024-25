@@ -1,5 +1,9 @@
+#import necessary libraries
 import numpy as np
 import matplotlib . pyplot as plt
+#N is the total number of people in the population.
+#S=susceptible, I=infected, R=recovered, this 1 means initial value.
+#beta is an infection probability and gamma is the recovery probability.
 N=10000
 I1=1
 S1=N-I1
@@ -12,6 +16,9 @@ R=[]
 S.append(S1)
 I.append(I1)
 R.append(R1)
+#loop over 1000 time points.
+#Caculate the number of the people who was infected newly and the people who recover newly.
+#list the results of S1,I1,R1 and add them into arrays.
 times=1000
 for t in range (times):
     NewI= beta*S1*(I1/N)
@@ -24,6 +31,7 @@ for t in range (times):
     R.append(R1)
 t=t+1
 print (S,I,R)
+#plot a picture.
 plt.figure(figsize=(6,4), dpi=150)
 plt.plot(S, label='susceptible')
 plt.plot(I, label='infected')
