@@ -18,9 +18,8 @@ def calculate_paracetamol_dose(weight, strength):
     return volume_ml
 #an example
 try:
-    weight = 26  # Example weight in kg
+    weight = 30  # Example weight in kg
     strength = '250 mg/5 ml' # Example strength
     volume = calculate_paracetamol_dose(weight, strength)
 except ValueError as e:
     print(e)
- 
