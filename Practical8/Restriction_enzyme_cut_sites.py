@@ -18,3 +18,7 @@ try:
     print(f"Restriction enzyme cut sites: {cut_sites}")
 except ValueError as e:
     print(e)
+DNA_seq= input('Please type the DNA sequences:')
+enzyme_seq =input ('Please type the enzyme cut sites:')
+result = sites(DNA_seq, enzyme_seq)
+print (result)

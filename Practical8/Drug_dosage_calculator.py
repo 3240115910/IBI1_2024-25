@@ -9,5 +9,5 @@ class patients:
     def print(x):
         print(f"Name: {x.name}, Age: {x.age}, Date of Latest Admission: {x.date_of_latest_admission}, Medical History: {x.medical_history}")
 # an example about myself
-patient = patients("Jiarui", 18, "2023-10-01", "Flu in 2020")
+patient = patients("Jiarui", 18, "2023-10-01", "ill in 2020")
 patient.print()
