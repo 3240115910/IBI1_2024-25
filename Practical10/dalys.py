@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 # importing the .csv file works
+# To print the path of the file
 directory_path= 'C:\\Users\\张嘉芮1\\Desktop\\IBI1\\IBI1_2024-25\\Practical10'
 os.chdir(directory_path)
 print ("the path is:", os.getcwd())
