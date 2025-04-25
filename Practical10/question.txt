@@ -1,5 +1,4 @@
 Question: How has the relationship between the DALYs in China and the UK changed over time?
           Are they becoming more similar, less similar?
 Answer: start at the 46 line.
-Result: Correlation between China and UK DALYs is 1.00
-        It is more similar.
+Result: Correlation between China and UK DALYs is more similar.
