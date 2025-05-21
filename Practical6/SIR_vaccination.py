@@ -9,8 +9,8 @@ from matplotlib import cm
 #list the results of S1,I1,R1,V1 and add them into arrays.
 #return four lists, each containing the number of susceptible individuals, infected individuals, recovered individuals, and vaccinated individuals for each time.
 def sir_model(N, I1, R1, beta, gamma, vaccination_rate, times=1000):
-    S1 = N - I1 - R1 - int(vaccination_rate * N)
-    S, I, R, V = [S1], [I1], [R1], [int(vaccination_rate * N)]
+    S1 = N - I1 - R1 - round(vaccination_rate * N)
+    S, I, R, V = [S1], [I1], [R1], [round(vaccination_rate * N)]
     V1=0
     for t in range(1, times):
         new_infections = beta * S1 * (I1 / N) 
@@ -40,7 +40,7 @@ times=1000
 for int, vaccination_rate in enumerate(vaccination_rates):
     S, I, R, V = sir_model(N, I1, R1, beta, gamma, vaccination_rate,times)
     color = cm.viridis(int / len(vaccination_rates))  
-    plt.plot(I, label=f'{vaccination_rate*100}%', color=color)
+    plt.plot(I, label=f'{vaccination_rate*100:.2f}%', color=color)
 #plot a picture.
 plt.xlabel('Time step')
 plt.ylabel('Number of people')
