@@ -4,6 +4,7 @@ Languages_use = {'JavaScript':62.3,
              'Python':51,
              'SQL':51,
              'TypeScript':38.5}
+print (f'Languages use is {Languages_use}')
 #Start to draw a bar.
 import matplotlib.pyplot as plt
 import numpy as np
