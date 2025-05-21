@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: To check the two random numbers which are from 1 to 5 how many times can be equal. 
+# Answer: It selects random numbers between 1 and 6 and reports how many times until the numbers are equal. 
           
 # Import libraries
 # randint allows drawing a random number,
