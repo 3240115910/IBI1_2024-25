@@ -1,0 +1,20 @@
+I like milktea
+<<<<<<< HEAD
+I like Z
+I like AllGamers very much
+I like snow
+I like jasmine
+I like grapefruit
+=======
+I like AllGamers
+I unlike snow
+>>>>>>> GYN
+I like changsheng
+I like sakura
+I like C 
+I like China
+I like A 
+I like B
+I like C
+I like D
+I like E
